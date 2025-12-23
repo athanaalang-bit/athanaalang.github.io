@@ -1,44 +1,189 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Athana</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f2f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: white;
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        h1 { color: #2c3e50; }
-        p { color: #7f8c8d; }
-        .button {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 10px 20px;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Halo, Selamat Datang!</h1>
-        <p>Ini adalah website parfum Amory Parfum.</p>
-        <a href="#" class="button">Pelajari Lebih Lanjut</a>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A’MORY.CO - Parfum Premium</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER / NAVBAR -->
+    <header class="navbar">
+      <div class="navbar-container">
+        <div class="logo">A’MORY.CO</div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="nav-menu">
+          <a href="#hero" class="nav-link">Menu</a>
+          <a href="#tentang" class="nav-link">Tentang Kami</a>
+          <a href="#produk" class="nav-link">Produk</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1>TEMUKAN<br />WANGI YANG<br />SESUAI<br />GAYAMU</h1>
+          <p>
+            Jelajahi koleksi parfum premium kami yang dirancang untuk
+            mencerminkan kepribadian unik Anda. Wangi yang tahan lama dan elegan
+            untuk setiap momen.
+          </p>
+          <a
+            href="https://linktr.ee/amory.parfum?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAO2jMVzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafqQldq0UHikWpx9vz7fadjH9b_dZFozctz5C9iIIyD6wCtPiU0qQJBKDW8iw&brid=MuizAi5whGj792paJQWZzw"
+            target="_blank"
+            rel="noopener"
+            class="btn-primary hero-btn"
+            >PESAN SEKARANG</a
+          >
+        </div>
+        <div class="hero-image">
+          <img
+            src="IMG/Inspired parfum foto Putih ig.jpg"
+            alt="Parfum Produk"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION TENTANG KAMI -->
+    <section id="tentang" class="tentang">
+      <div class="container">
+        <h2>TENTANG KAMI</h2>
+        <div class="tentang-content">
+          <div class="tentang-image">
+            <img
+              src="IMG/IMG_20230811 (1).jpg"
+              alt="Foto Produk Parfum A’MORY"
+            />
+          </div>
+          <div class="tentang-text">
+            <p>
+              A’MORY Parfum didirikan berangkat dari keresahan sederhana akan
+              sulitnya menemukan parfum berkualitas dengan aroma yang tahan
+              lama, desain menarik, namun tetap memiliki harga yang terjangkau.
+              Berawal dari ketertarikan terhadap dunia wewangian dan eksperimen
+              aroma secara mandiri, A’MORY lahir sebagai brand parfum lokal yang
+              ingin menghadirkan pengalaman aroma premium untuk semua kalangan,
+              khususnya generasi muda. Pada tahap awal, A’MORY Parfum fokus
+              melakukan riset karakter aroma yang sesuai dengan gaya hidup
+              modern—praktis, percaya diri, dan berani mengekspresikan diri.
+              Setiap varian dikembangkan dengan pendekatan yang matang, mulai
+              dari pemilihan komposisi aroma hingga pengemasan produk yang
+              mencerminkan kesan minimalis dan elegan. Seiring berkembangnya
+              waktu, A’MORY Parfum mulai dikenal melalui pemasaran digital dan
+              respon positif dari para pengguna. Hal ini mendorong A’MORY untuk
+              terus berinovasi dan memperluas lini produknya tanpa meninggalkan
+              nilai utama: kualitas, estetika, dan kenyamanan penggunaan
+              sehari-hari. Hingga saat ini, A’MORY Parfum terus berkomitmen
+              menjadi brand parfum lokal yang relevan, adaptif, dan berdaya
+              saing, serta membawa semangat kebanggaan terhadap produk lokal
+              Indonesia melalui aroma yang berkarakter dan berkesan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PRODUK AMORY -->
+    <section id="produk" class="produk">
+      <div class="container">
+        <h2>PRODUK AMORY</h2>
+        <div class="produk-grid">
+          <div class="produk-card" data-nama="A’MORY SAUVAGE">
+            <img
+              src="IMG/Foto PRoduk amory keknya bagus.jpg"
+              alt="A’MORY SAUVAGE"
+            />
+            <h3>A’MORY SAUVAGE</h3>
+            <p class="harga">Rp65.000</p>
+            <p class="deskripsi">
+              Kemasan 35ML - Wangi segar dengan nuansa citrus dan woody yang
+              maskulin, tahan lama sepanjang hari.
+            </p>
+          </div>
+
+          <div class="produk-card" data-nama="A’MORY MARTINA">
+            <img src="IMG/IMG_3637 (2).JPG" alt="A’MORY MARTINA" />
+            <h3>A’MORY MARTINA</h3>
+            <p class="harga">Rp55.000</p>
+            <p class="deskripsi">
+              Kemasan 35ML - Aroma floral lembut dengan sentuhan vanilla, cocok
+              untuk wanita aktif dan percaya diri.
+            </p>
+          </div>
+
+          <div class="produk-card" data-nama="A’MORY BLACKOPI">
+            <img src="IMG/01432184.jpg" alt="A’MORY BLACKOPI" />
+            <h3>A’MORY BLACKOPI</h3>
+            <p class="harga">Rp85.000</p>
+            <p class="deskripsi">
+              Kemasan 35ML - Karakter aroma oriental spicy yang kuat, memberikan
+              kesan mewah dan misterius.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION TESTIMONI -->
+    <section class="testimoni">
+      <div class="container">
+        <h2>TESTIMONI</h2>
+        <div class="testimoni-grid">
+          <div class="testimoni-card">
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <h4>Ahmad S.</h4>
+            <p>
+              "Parfum A’MORY SAUVAGE benar-benar cocok dengan gaya saya.
+              Wanginya tahan lama dan elegan. Sangat recommended!"
+            </p>
+          </div>
+          <div class="testimoni-card">
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <h4>Martina L.</h4>
+            <p>
+              "Saya jatuh cinta dengan A’MORY MARTINA. Aroma floralnya membuat
+              saya merasa percaya diri setiap hari."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CTA -->
+    <section class="cta">
+      <div class="cta-overlay">
+        <h2>INFO LEBIH LANJUT<br />DAN KONSULTASI</h2>
+        <button
+          class="btn-primary cta-btn"
+          onclick="window.open('https://linktr.ee/amory.parfum?utm_source=linktree_profile_share&ltsid=0ac2c5da-ccb1-4a88-b500-d1cd67ff50d5', '_blank')"
+        >
+          Linktree
+        </button>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>A’Mory Parfum Jakarta 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Floating Chat Button -->
+    <!-- Floating Chat Button dengan Gambar PNG -->
+    <a
+      href="https://linktr.ee/amory.parfum?utm_source=linktree_profile_share&ltsid=88ae141c-78c1-47b0-bcca-11adc7bdf42d"
+      target="_blank"
+      rel="noopener"
+      class="floating-btn"
+      aria-label="Linktree"
+    >
+      <img src="IMG/Desain tanpa judul 1.png" alt="Chat Button" />
+    </a>
+  </body>
 </html>
