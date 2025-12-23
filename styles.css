@@ -107,7 +107,7 @@ body {
   box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2); /* Shadow halus */
 }
 
-/* Style khusus untuk tombol Linktree di CTA section */
+/* Style khusus untuk tombol Linktree di  section */
 .cta-btn {
   background-color: transparent;
   color: rgb(18, 18, 18);
@@ -529,7 +529,7 @@ body {
 
 /* SECTION CTA */
 .cta {
-  background-image: url(RPL-Amory\IMG\IMG_20230811 (1).jpg");
+  background-image: url("RPL-Amory/IMG/IMG_20230811 (1).jpg");
   background-size: cover;
   background-position: center;
   padding: 4rem 0;
@@ -753,4 +753,5 @@ body {
     right: 15px !important;
   }
 }
+
 
